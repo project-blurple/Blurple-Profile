@@ -202,7 +202,7 @@ class ProfileCog(Cog, name="Profile"):
     def load_designs(self):
         for d in DESIGNS:
             design = load_design_from_json(f"Designs/{d}.json", "Designs")
-            self.bot.designs[design.file_path] = design
+            self.bot.designs[design.folder_path] = design
 
     async def on_app_command_error(self, interaction: Interaction, error: AppCommandError):
         # if isinstance(error, app_commands.errors.CheckFailure):
