@@ -1,0 +1,242 @@
+{
+  "info": {
+    "name": "Default",
+    "folder_path": "default",
+    "default_layer": 10
+  },
+  "fonts": {
+    "PaytoneOne": "PaytoneOne-Regular.ttf",
+    "SourceSansPro-B": "SourceSansPro-Bold.ttf",
+    "SourceSansPro-I": "SourceSansPro-Italic.ttf"
+  },
+  "colors": {
+    "white": [
+      255, 255, 255, 255
+    ],
+    "blurple": [
+      87, 101, 242
+    ],
+    "grey": [
+      137, 138, 140
+    ]
+  },
+  "objects": {
+    "groups": [
+      {
+        "name": "Badges",
+        "pos": [
+          640,
+          586
+        ],
+        "anchor": "",
+        "queue": [[0, 0], [150, 0], [300, 0], [450, 0], [600, 0], [750, 0], [900, 0], [1050, 0], [1200, 0], [1350, 0]]
+      },
+      {
+        "name": "Years",
+        "pos": [
+          640, 753
+        ],
+        "anchor": "",
+        "queue": [[0, 0], [95, 0], [190, 0], [285, 0], [380, 0]]
+      }
+    ],
+    "text": [
+      {
+        "text": "{USERNAME}#{DISCRIMINATOR}",
+        "font": "SourceSansPro-B",
+        "size": 55,
+        "pos": [
+          498,
+          205
+        ],
+        "anchor": "TL",
+        "color": "white"
+      },
+      {
+        "text": "{NICKNAME}",
+        "font": "SourceSansPro-I",
+        "size": 55,
+        "pos": [
+          498,
+          300
+        ],
+        "anchor": "TL",
+        "color": "grey"
+      },
+      {
+        "text": "{JOINED:%d}",
+        "font": "PaytoneOne",
+        "size": 35,
+        "pos": [
+          932,
+          421
+        ],
+        "anchor": "",
+        "color": "blurple"
+      },
+      {
+        "text": "{JOINED:%b}",
+        "font": "PaytoneOne",
+        "size": 35,
+        "pos": [
+          1044,
+          421
+        ],
+        "anchor": "",
+        "color": "blurple"
+      },
+      {
+        "text": "{JOINED:%Y}",
+        "font": "PaytoneOne",
+        "size": 35,
+        "pos": [
+          1176,
+          421
+        ],
+        "anchor": "",
+        "color": "blurple"
+      }
+    ],
+    "images": [
+      {
+        "image": "CARD_DARK.png",
+        "layer": 1
+      },
+      {
+        "image": "MODERATOR.png",
+        "roles": [
+          "STAFF"
+        ],
+        "layer": 5,
+        "pos": [
+          78,
+          297
+        ],
+        "anchor": ""
+      },
+      {
+        "image": "PFP",
+        "pos": [78, 112],
+        "anchor": "TL",
+        "max_width": 380,
+        "mask": "AVI_MASK.png",
+        "layer": 2
+      },
+      {
+        "image": "PARTNER.png",
+        "group": "Badges",
+        "group_layer": 1,
+        "roles": [
+          "PARTNER"
+        ]
+      },
+      {
+        "image": "MEGADONOR.png",
+        "group": "Badges",
+        "group_layer": 2,
+        "roles": [
+          "MEGA_DONATOR"
+        ]
+      },
+      {
+        "image": "BOOSTER.png",
+        "group": "Badges",
+        "group_layer": 3,
+        "roles": [
+          "BOOSTER"
+        ]
+      },
+      {
+        "image": "DONOR.png",
+        "group": "Badges",
+        "group_layer": 4,
+        "roles": [
+          "DONATOR"
+        ]
+      },
+      {
+        "image": "PAINTER.png",
+        "group": "Badges",
+        "group_layer": 5,
+        "roles": [
+          "PAINTER"
+        ]
+      },
+      {
+        "image": "GOLDMINEADV.png",
+        "group": "Badges",
+        "group_layer": 6,
+        "roles": [
+          "GOLD_MINECRAFT"
+        ]
+      },
+      {
+        "image": "ARTISTS.png",
+        "group": "Badges",
+        "group_layer": 7,
+        "roles": [
+          "ARTIST"
+        ]
+      },
+      {
+        "image": "ADV.png",
+        "group": "Badges",
+        "group_layer": 8,
+        "roles": [
+          "MINECRAFT"
+        ]
+      },
+      {
+        "image": "REP.png",
+        "group": "Badges",
+        "group_layer": 9,
+        "roles": [
+          "SERVER_REP"
+        ]
+      },
+      {
+        "image": "ICON_USER.png",
+        "group": "Badges",
+        "group_layer": 10,
+        "roles": [
+          "USER"
+        ]
+      },
+      {
+        "image": "ICON_18.png",
+        "group": "Years",
+        "group_layer": 1,
+        "max_height": 120,
+        "roles": ["2018"]
+      },
+      {
+        "image": "ICON_19.png",
+        "group": "Years",
+        "group_layer": 2,
+        "max_height": 120,
+        "roles": ["2019"]
+      },
+      {
+        "image": "ICON_20.png",
+        "group": "Years",
+        "group_layer": 3,
+        "max_height": 120,
+        "roles": ["2020"]
+      },
+      {
+        "image": "ICON_21.png",
+        "group": "Years",
+        "group_layer": 4,
+        "max_height": 120,
+        "roles": ["2021"]
+      },
+      {
+        "image": "ICON_22.png",
+        "group": "Years",
+        "group_layer": 5,
+        "max_height": 120,
+        "roles": ["2022"]
+      }
+    ]
+  }
+}

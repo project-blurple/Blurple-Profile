@@ -1,0 +1,194 @@
+{
+  "info": {
+    "name": "Test",
+    "folder_path": "test",
+    "default_layer": 10
+  },
+  "fonts": {
+    "Uni Sans": "Uni Sans Heavy.otf",
+    "gg sans Bold": "ggsans-Bold.ttf",
+    "gg sans Normal": "ggsans-Normal.ttf",
+    "Ginto Nord": "Ginto-Nord-600.ttf",
+    "Ginto Italic": "Ginto-600-italic.ttf"
+  },
+  "colors": {
+    "white": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "objects": {
+    "groups": [
+      {
+        "name": "Badges",
+        "pos": [415, 425],
+        "anchor": "",
+        "queue": [
+          [0, 0],
+          [90, 0],
+          [180, 0],
+          [270, 0]
+        ]
+      },
+      {
+        "name": "Years",
+        "pos": [945, 118],
+        "anchor": "UL",
+        "queue": [
+          [0, 0, 4],
+          [-50, 0, 3],
+          [-100, 0, 2],
+          [-150, 0, 1],
+          [-200, 0, 0]
+        ]
+      }
+    ],
+    "text": [
+      {
+        "text": "{USERNAME}",
+        "font": "Ginto Nord",
+        "size": 80,
+        "pos": [
+          380,
+          320
+        ],
+        "anchor": "DL",
+        "max_width": 550,
+        "color": "white"
+      },
+      {
+        "text": "#{DISCRIMINATOR}",
+        "font": "Ginto Nord",
+        "size": 40,
+        "pos": [
+          400,
+          325
+        ],
+        "anchor": "L",
+        "color": [
+          255,
+          255,
+          255,
+          230
+        ]
+      },
+      {
+        "text": "{NICKNAME}",
+        "font": "Ginto Italic",
+        "size": 30,
+        "pos": [
+          580,
+          325
+        ],
+        "anchor": "L",
+        "max_width": 400,
+        "color": "white"
+      },
+      {
+        "text": "Joined on {JOINED}",
+        "font": "gg sans Bold",
+        "size": 25,
+        "pos": [
+          400,
+          365
+        ],
+        "anchor": "L",
+        "color": "white"
+      }
+    ],
+    "images": [
+      {
+        "image": "base w lines.png",
+        "layer": 1
+      },
+      {
+        "image": "shadow.png",
+        "roles": ["~STAFF"]
+      },
+      {
+        "image": "shadow w badge.png",
+        "roles": ["STAFF"]
+      },
+      {
+        "image": "staff badge mask.png",
+        "roles": ["STAFF"],
+        "layer": 1
+      },
+      {
+        "image": "PFP",
+        "pos": [
+          200,
+          350
+        ],
+        "max_width": 310,
+        "layer": 0
+      },
+      {
+        "image": "donator.png",
+        "group": "Badges",
+        "group_layer": 0,
+        "roles": [
+          "DONATOR"
+        ]
+      },
+      {
+        "image": "paint.png",
+        "group": "Badges",
+        "group_layer": 1,
+        "roles": [
+          "PAINT"
+        ]
+      },
+      {
+        "image": "canvas.png",
+        "group": "Badges",
+        "group_layer": 2,
+        "roles": [
+          "CANVAS"
+        ]
+      },
+      {
+        "image": "minecraft.png",
+        "group": "Badges",
+        "group_layer": 3,
+        "roles": [
+          "MINECRAFT"
+        ]
+      },
+      {
+        "image": "22.png",
+        "group": "Years",
+        "group_layer": 0,
+        "roles": ["2022"]
+      },
+      {
+        "image": "21.png",
+        "group": "Years",
+        "group_layer": 1,
+        "roles": ["2021"]
+      },
+      {
+        "image": "20.png",
+        "group": "Years",
+        "group_layer": 2,
+        "roles": ["2020"]
+      },
+      {
+        "image": "19.png",
+        "group": "Years",
+        "group_layer": 3,
+        "roles": ["2019"]
+      },
+      {
+        "image": "18.png",
+        "group": "Years",
+        "group_layer": 4,
+        "roles": [
+          "2018"
+        ]
+      }
+    ]
+  }
+}
