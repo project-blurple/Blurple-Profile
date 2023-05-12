@@ -1,0 +1,8 @@
+TOKEN = "TOKENHERE"
+BOT_PREFIX = "PREFIXHERE"  # only used for cog management
+
+DESIGNS = [
+    "DESIGNS HERE"
+]
+
+DEFAULT = "DEFAULT HERE"
